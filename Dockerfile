@@ -14,8 +14,7 @@
 
 FROM continuumio/miniconda3
 LABEL maintainer="Wendy Mak <wwymak@gmail.com>"
-LABEL url="https://github.com/gboeing/osmnx"
-LABEL description="OSMnx is a Python package to retrieve, model, analyze, and visualize OpenStreetMap networks and other spatial data."
+LABEL description="OSMNX with pandana and a few other useful geolibs"
 
 # configure conda and install packages in one RUN to keep image tidy
 RUN conda config --set show_channel_urls true && \
