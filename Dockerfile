@@ -39,15 +39,4 @@ CMD ["jupyter", "lab", "--ip='0.0.0.0'", "--port=8888", "--no-browser", "--allow
 
 # to test, import OSMnx and print its version
 # RUN ipython -c "import osmnx; print(osmnx.__version__)"
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
